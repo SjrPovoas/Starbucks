@@ -1,0 +1,84 @@
+/*
+    SELETOR (QUEM EU QUERO ESTILIZAR)
+    PROPRIEDADE (O QUE EU VOU ALERAR)
+    VALOR (O VALOT QUE EU QUERO COLOCAR NA PROPRIEDADE)
+    * -> TUDO ( CONFIGURAÇÃO PARA NIVELAR COMPATIBILIDADE DOS NAVEGADORES)
+*/
+
+*{
+    margin: 0;  /*ESPAÇO DE FORA*/
+    padding: 0; /*ESPAÇO DE DENTRO*/
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 60px;    /* TAMANHO DA FONTE */
+    font-weight: bold;   /* GROSSURA DA FONTE */
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+button {
+    background: #017143;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+button:hover {
+    background: #018950;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.starbucks {
+        width: 340px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.botao-menu:hover {
+    width: 100px;
+    transform: translateY(-30px);
+}
