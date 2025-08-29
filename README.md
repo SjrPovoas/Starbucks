@@ -23,6 +23,10 @@ Ao [Rodolfo Mori](https://github.com/rodolfomori) pela confecção dos [Materiai
 ---
 ## 1. CONFIGURANDO CONEXÃO VSCODE COM GITHUB
 
+Para clonar esse Projeto, use:
+
+git clone https://github.com/SjrPovoas/Starbucks.git
+
 1. Verifique a configuração do Git: Antes de fazer login, é importante verificar se você configurou seu nome de usuário e endereço de e-mail no Git.
 
 Você pode fazer isso com os seguintes comandos, substituindo "Seu Nome" e "seu@email.com" pelas suas informações reais:

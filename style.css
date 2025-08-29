@@ -16,6 +16,7 @@ body {
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
+    max-width: 1400px;
 }
 
 .conteudo {
@@ -23,6 +24,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .caixa-texto {
@@ -44,27 +46,29 @@ span {
 button {
     background: #017143;
     color: #ffffff;
-    border-radius: 40px;
+    border-radius: 50px;
     border: none;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 30px;
     cursor: pointer;
     transition: 0,5s;
+    font-size: larger;
 }
 
 button:hover {
     background: #018950;
+
 }
 
-.caixa-imagem {
+.imagem {
     width: 600px;
     display: flex;
     justify-content: flex-end;
     margin-top: 250px;
 }
 
-.starbucks {
-        width: 340px;
+.imagem-copo {
+    width: 340px;
 }
 
 .menu {
@@ -76,9 +80,22 @@ button:hover {
     width: 60px;
     cursor: pointer;
     transition: 0,5s;
+    margin-bottom: 100px;
 }
 
 .botao-menu:hover {
     width: 100px;
     transform: translateY(-30px);
+
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
 }
