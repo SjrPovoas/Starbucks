@@ -23,11 +23,17 @@ querySelector = selecionar o que eu quiser no HTML
 -Estou indo no HTML, procurando por alguém. Esse alguém tem uma classe e quando eu encontrar esse alguém, eu guardo meu pedacinho no meu espaço da minha variável
 */
 let imagem = document.querySelector(".imagem-copo")
+let fundo = document.querySelector(".circulo")
 
 function trocaImagem(endereco){
     imagem.src = endereco
-   /*console.log(endereco)*/  
 }
+   /*console.log(endereco)*/  
+   
+function trocaFundo(cor){
+    fundo.style.background = cor
+}   
+
 /*"Leitura"
 Toda vez que a função trocaImagem é chamada ela troca a imagem.src="img/img1.png"
 -Forma Dinâmica para isso é: dentro dos parênteses = variável

@@ -13,10 +13,9 @@
 }
 
 body {
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-    max-width: 1400px;
+    padding: 48px 32px; /*padding: 3rem 2rem;*/
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .conteudo {
@@ -86,6 +85,7 @@ button:hover {
 .botao-menu:hover {
     width: 100px;
     transform: translateY(-30px);
+    padding-inline: 20px;
 
 }
 
@@ -95,7 +95,16 @@ button:hover {
     height: 100%;
     position: absolute;
     top: 0;
-    left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(500px at top 600px);
     z-index: -1;
+    max-width: 1150px;
+    min-height:fit-content;
 }
+.footer {
+    text-align: center;
+    color:whitesmoke;
+    background-color: #017143;
+    margin-bottom: 100px;
+    padding: 0.5rem;
+}
+
